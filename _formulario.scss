@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #rellenar_informacion{
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -17,4 +18,25 @@ form{
     padding: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
          
+=======
+#rellenar_informacion{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+    color: $color-violeta;
+    text-shadow: 1px 1px black;
+    width  : 50%;
+    height : auto;
+    margin : 5px auto;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         
+>>>>>>> f8fef8682c8476d262019a9ad1b7fa6c03dee276
 }
