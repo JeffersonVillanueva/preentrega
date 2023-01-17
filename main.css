@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(60deg, #cf3f80 10%, #6d96ce 40%, #7ccaa5 70%);
+}
+
+h2 {
+  text-align: center;
+}
+
+#logo {
+  color: #cf3f80;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+}
+
+#logo:hover {
+  color: #7ccaa5;
+}
+
+#primer-texto {
+  font-size: 15px;
+  color: #cf3f80;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#parrafo {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#productos {
+  align-items: center;
+  display: grid;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 2fr 100px auto auto;
+  grid-template-areas: ". carrusel carrusel ." "titulop titulop titulop titulop" ". video video ." ". texto texto .";
+}
+
+.carrusel {
+  grid-area: carrusel;
+}
+
+.titulop {
+  grid-area: titulop;
+}
+
+.video {
+  grid-area: video;
+}
+
+.texto {
+  grid-area: texto;
+  text-align: center;
+  justify-content: center;
+}
+
+#rellenar_informacion {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+form {
+  position: relative;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 18px;
+  color: #cf3f80;
+  text-shadow: 1px 1px black;
+  width: 50%;
+  height: auto;
+  margin: 5px auto;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#facebook:hover {
+  opacity: 50%;
+}/*# sourceMappingURL=main.css.map */
