@@ -1,0 +1,71 @@
+body {
+
+    background: linear-gradient(60deg,  $color-violeta  10%, $color-azulmorado  40%, $color-verdeclaro  70%);
+
+}
+
+h2{
+    text-align: center;
+}
+
+#logo{
+    color: $color-violeta;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+      
+}
+#logo:hover{
+    color: $color-verdeclaro;
+}
+
+#primer-texto{
+    font-size: 15px; 
+    color: $color-violeta; 
+    margin-top: 10px;  
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+#parrafo{
+    font-size: 15px; 
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+#productos{
+    align-items: center;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 2fr 100px auto auto;
+    grid-template-areas: 
+    
+    ". carrusel carrusel ."
+    "titulop titulop titulop titulop"
+    ". video video ."
+    ". texto texto ."
+ 
+    ;
+}
+
+.carrusel{
+    grid-area: carrusel;
+    
+}
+.titulop{
+    grid-area: titulop;
+    
+}
+.video{
+    grid-area: video;
+}
+.texto{
+    grid-area: texto;
+    text-align: center;
+    justify-content: center;
+    
+}
