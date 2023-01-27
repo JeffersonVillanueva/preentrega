@@ -4,11 +4,16 @@
     text-align: center;
 }
 
+.titulo_form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: $color-violeta;
+    text-shadow: 1px 1px black;
+}
+
 form{
     position: relative;
-    border: 1px solid black;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: $color-violeta;
     text-shadow: 1px 1px black;
     width  : 50%;

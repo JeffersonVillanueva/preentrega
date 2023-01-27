@@ -11,15 +11,17 @@ h2 {
   font-size: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-decoration: none;
+  text-shadow: 1px 1px black;
 }
 
 #logo:hover {
-  color: #7ccaa5;
+  color: #6d96ce;
 }
 
 #primer-texto {
   font-size: 15px;
   color: #cf3f80;
+  text-shadow: 1px 1px black;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
@@ -54,6 +56,11 @@ h2 {
   grid-area: video;
 }
 
+@media (min-width: 475px) {
+  .column {
+    width: 50%;
+  }
+}
 .texto {
   grid-area: texto;
   text-align: center;
@@ -66,11 +73,16 @@ h2 {
   text-align: center;
 }
 
+.titulo_form {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #cf3f80;
+  text-shadow: 1px 1px black;
+}
+
 form {
   position: relative;
-  border: 1px solid black;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   color: #cf3f80;
   text-shadow: 1px 1px black;
   width: 50%;

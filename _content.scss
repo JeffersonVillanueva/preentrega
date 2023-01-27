@@ -13,15 +13,17 @@ h2{
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    text-shadow: 1px 1px black;
       
 }
 #logo:hover{
-    color: $color-verdeclaro;
+    color: $color-azulmorado;
 }
 
 #primer-texto{
     font-size: 15px; 
     color: $color-violeta; 
+    text-shadow: 1px 1px black;
     margin-top: 10px;  
     margin-bottom: 10px;
     text-align: center;
@@ -63,6 +65,13 @@ h2{
 .video{
     grid-area: video;
 }
+
+@media (min-width: 475px) {
+    .column {
+      width: 50%;
+    }
+}
+
 .texto{
     grid-area: texto;
     text-align: center;
